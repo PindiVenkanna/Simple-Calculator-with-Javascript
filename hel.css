@@ -1,0 +1,37 @@
+body {
+    background-color: #ffe066; /* Light yellow */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #333; /* Dark gray */
+    color: #ffd700; /* Gold */
+    height: 40px;
+    width: 80px;
+    border: 2px solid #4caf50; /* Green */
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555; /* Darker gray */
+}
+
+#result {
+    background-color: #ffe4b5; /* Moccasin */
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    text-align: right;
+    padding: 5px;
+    border: 2px solid #ffa500; /* Orange */
+    margin: 5px;
+}
